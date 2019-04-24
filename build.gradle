@@ -13,4 +13,45 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    runtime "org.slf4j:slf4j-simple:1.7.12"
+    compile "com.heroku.sdk:heroku-jdbc:0.1.1"
+
+    // Sparkjava and FreeMarker
+    compile "com.sparkjava:spark-core:2.5"
+    compile 'com.sparkjava:spark-debug-tools:0.5'
+    compile group: 'com.sparkjava', name: 'spark-template-freemarker', version: '2.3'
+
+    //Slf4j Library -> Sparkjava extension
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.21'
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
+    compile group: 'commons-validator', name: 'commons-validator', version: '1.5.1'
+
+    // H2 Data Base
+    compile group: 'com.h2database', name: 'h2', version: '1.4.192'
+
+    // Jsoup
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.9.2'
+
+    // ORM - Hibernate
+    compile "org.hibernate:hibernate-core:5.2.0.Final"
+    compile 'org.hibernate:hibernate-entitymanager:5.1.0.Final'
+
+    // J2HTML
+    compile group: 'com.j2html', name: 'j2html', version: '0.7'
+
+
+    //Google api
+    compile 'com.google.api-client:google-api-client:1.19.1'
+
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    compile group: 'com.google.code.gson', name: 'gson', version: '1.7.2'
+
+    //Json
+    compile group: 'org.json', name: 'json', version: '20090211'
+
+    compile group: 'commons-validator', name: 'commons-validator', version: '1.4.0'
+    compile group: 'eu.bitwalker', name: 'UserAgentUtils', version: '1.20'
+
+    //Gson
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
 }
