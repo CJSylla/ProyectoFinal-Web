@@ -42,7 +42,7 @@
                         </div>
                         <#else>
                             <div class="mdl-card__supporting-text">
-                                <p>You are alreafy logged in, no need to log in again.</p>
+                                <p>Ya estas conectado</p>
                             </div>
                             <div class="mdl-card__actions mdl-card--border">
                                 <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Log OUT</a>
