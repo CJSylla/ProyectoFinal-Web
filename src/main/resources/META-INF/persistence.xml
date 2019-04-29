@@ -11,7 +11,7 @@
         <class>Entity.URL</class>
         <class>Entity.User</class>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/URL" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/URLCJ" />
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
             <property name="javax.persistence.jdbc.user" value="sa" />
             <property name="javax.persistence.jdbc.password" value="" />
@@ -22,6 +22,7 @@
             <property name="javax.persistence.schema-generation.database.action" value="create"/>
             <property name="hibernate.connection.pool_size" value="30"/>
             <property name="hibernate.format_sql" value="true" />
+
 
         </properties>
     </persistence-unit>
